@@ -11,7 +11,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 ### 🛠️ Gereksinimler
 
 *   Python 3.8+
-*   [Python Bağımlılıkları Listesi, örn:]
+*   [Python Bağımlılıkları Listesi]
     *   `opencv-python >= 4.x`
     *   `numpy >= 1.x`
     *   `tqdm >= 4.x`
