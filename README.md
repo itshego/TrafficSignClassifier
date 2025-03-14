@@ -53,7 +53,9 @@ Bu proje, gerçek zamanlı trafik tabelası tanıma için iki aşamalı bir yakl
 
 *   **Yüksek Doğruluk:** Sistem, 3 farklı videodan alınan 1500'den fazla görüntüden oluşan bir veri kümesinde %99 doğruluk oranına ulaşır.
 *   **Elips Tabanlı Yanlış Pozitif Filtreleme:** Yeni bir elips tabanlı filtreleme mekanizması, tanımlanan elipsin tabela şekliyle yakından eşleşmediği tespitleri reddederek yanlış pozitifleri azaltır.
+  
 ![Proje Output Görüntüsü3](system_output.png)
+
 * Proje geliştirme sürecinde farklı parametre ayarlamalarını hızlıca değerlendirmek için basit bir puanlama sistemi kullanılmıştır. Bu sistem, farklı hata türlerine ve doğru tespitlere farklı puanlar vererek, farklı konfigürasyonların göreceli performansını hızlıca karşılaştırmaya yardımcı olmuştur. Kullanıcıların çalıştırması için doğrudan bir anlamı yoktur, ancak geliştirme sürecini hızlandırmak için faydalı olmuştur.
 
 ## İsteğe Bağlı Gelişmiş Özellikler
