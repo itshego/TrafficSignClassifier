@@ -48,7 +48,9 @@ Bu proje, gerçek zamanlı trafik tabelası tanıma için iki aşamalı bir yakl
     *   **Elips Uydurma: İşlenmiş maskede konturlar algılanır ve en büyük kontura bir elips uydurulur.**
     *   **Elips Boyutu Doğrulama:** Uydurulan elipsin boyutu, hatalı pozitifleri filtrelemek için bir eşiğe (kırpılan görüntünün %80'i) göre doğrulanır.
     *   **Çeyrek Analizi:** Elipsin içindeki bölge dört çeyreğe bölünür ve her çeyrekteki mavi piksellerin yüzdesi hesaplanır. Bu bilgi, işaretin gösterdiği yönü (örneğin, "Sol" veya "Sağ") belirlemek için kullanılır.
+      
 ![Proje Result Görüntüsü2](quadrant_analysis.png)
+
 *   **Yüksek Doğruluk:** Sistem, 3 farklı videodan alınan 1500'den fazla görüntüden oluşan bir veri kümesinde %99 doğruluk oranına ulaşır.
 *   **Elips Tabanlı Yanlış Pozitif Filtreleme:** Yeni bir elips tabanlı filtreleme mekanizması, tanımlanan elipsin tabela şekliyle yakından eşleşmediği tespitleri reddederek yanlış pozitifleri azaltır.
 ![Proje Output Görüntüsü3](system_output.png)
